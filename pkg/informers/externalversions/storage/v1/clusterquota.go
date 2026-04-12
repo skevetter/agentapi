@@ -6,7 +6,7 @@ import (
 	"context"
 	time "time"
 
-	storagev1 "github.com/skevetter/agentapi/pkg/apis/loft/storage/v1"
+	storagev1 "github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1"
 	versioned "github.com/skevetter/agentapi/pkg/clientset/versioned"
 	internalinterfaces "github.com/skevetter/agentapi/pkg/informers/externalversions/internalinterfaces"
 	v1 "github.com/skevetter/agentapi/pkg/listers/storage/v1"

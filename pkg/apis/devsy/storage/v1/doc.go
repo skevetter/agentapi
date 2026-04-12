@@ -3,8 +3,7 @@
 // of the same resource
 
 // +k8s:openapi-gen=true
-// +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=github.com/skevetter/agentapi/pkg/apis/loft/cluster
+// +k8s:deepcopy-gen=package
 // +k8s:defaulter-gen=TypeMeta
-// +groupName=cluster.loft.sh
-package v1 // import "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1"
+// +groupName=storage.devsy.sh
+package v1 // import "github.com/skevetter/agentapi/apis/devsy/storage/v1"
