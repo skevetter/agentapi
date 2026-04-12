@@ -41,38 +41,38 @@ func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenA
 		"github.com/skevetter/admin-apis/pkg/licenseapi.ResourceCount":                            schema_loft_sh_admin_apis_pkg_licenseapi_ResourceCount(ref),
 		"github.com/skevetter/admin-apis/pkg/licenseapi.TierResource":                             schema_loft_sh_admin_apis_pkg_licenseapi_TierResource(ref),
 		"github.com/skevetter/admin-apis/pkg/licenseapi.Trial":                                    schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash":                          schema_apis_loft_cluster_v1_Bash(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart":                         schema_apis_loft_cluster_v1_Chart(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfo":                     schema_apis_loft_cluster_v1_ChartInfo(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoList":                 schema_apis_loft_cluster_v1_ChartInfoList(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoSpec":                 schema_apis_loft_cluster_v1_ChartInfoSpec(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoStatus":               schema_apis_loft_cluster_v1_ChartInfoStatus(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef":                schema_apis_loft_cluster_v1_ChartSecretRef(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo":                     schema_apis_loft_cluster_v1_EpochInfo(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Feature":                       schema_apis_loft_cluster_v1_Feature(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureList":                   schema_apis_loft_cluster_v1_FeatureList(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureSpec":                   schema_apis_loft_cluster_v1_FeatureSpec(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureStatus":                 schema_apis_loft_cluster_v1_FeatureStatus(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmRelease":                   schema_apis_loft_cluster_v1_HelmRelease(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseApp":                schema_apis_loft_cluster_v1_HelmReleaseApp(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseConfig":             schema_apis_loft_cluster_v1_HelmReleaseConfig(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseList":               schema_apis_loft_cluster_v1_HelmReleaseList(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseSpec":               schema_apis_loft_cluster_v1_HelmReleaseSpec(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseStatus":             schema_apis_loft_cluster_v1_HelmReleaseStatus(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Info":                          schema_apis_loft_cluster_v1_Info(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.LastActivityInfo":              schema_apis_loft_cluster_v1_LastActivityInfo(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Maintainer":                    schema_apis_loft_cluster_v1_Maintainer(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata":                      schema_apis_loft_cluster_v1_Metadata(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ProjectSecretRef":              schema_apis_loft_cluster_v1_ProjectSecretRef(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfig":               schema_apis_loft_cluster_v1_SleepModeConfig(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigSpec":           schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigStatus":         schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuota":                  schema_apis_loft_storage_v1_ClusterQuota(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaList":              schema_apis_loft_storage_v1_ClusterQuotaList(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaSpec":              schema_apis_loft_storage_v1_ClusterQuotaSpec(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatus":            schema_apis_loft_storage_v1_ClusterQuotaStatus(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace": schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref),
-		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.Condition":                     schema_apis_loft_storage_v1_Condition(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Bash":                          schema_apis_devsy_cluster_v1_Bash(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart":                         schema_apis_devsy_cluster_v1_Chart(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfo":                     schema_apis_devsy_cluster_v1_ChartInfo(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoList":                 schema_apis_devsy_cluster_v1_ChartInfoList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoSpec":                 schema_apis_devsy_cluster_v1_ChartInfoSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoStatus":               schema_apis_devsy_cluster_v1_ChartInfoStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartSecretRef":                schema_apis_devsy_cluster_v1_ChartSecretRef(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.EpochInfo":                     schema_apis_devsy_cluster_v1_EpochInfo(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Feature":                       schema_apis_devsy_cluster_v1_Feature(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureList":                   schema_apis_devsy_cluster_v1_FeatureList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureSpec":                   schema_apis_devsy_cluster_v1_FeatureSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureStatus":                 schema_apis_devsy_cluster_v1_FeatureStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmRelease":                   schema_apis_devsy_cluster_v1_HelmRelease(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseApp":                schema_apis_devsy_cluster_v1_HelmReleaseApp(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseConfig":             schema_apis_devsy_cluster_v1_HelmReleaseConfig(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseList":               schema_apis_devsy_cluster_v1_HelmReleaseList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseSpec":               schema_apis_devsy_cluster_v1_HelmReleaseSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseStatus":             schema_apis_devsy_cluster_v1_HelmReleaseStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Info":                          schema_apis_devsy_cluster_v1_Info(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.LastActivityInfo":              schema_apis_devsy_cluster_v1_LastActivityInfo(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Maintainer":                    schema_apis_devsy_cluster_v1_Maintainer(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Metadata":                      schema_apis_devsy_cluster_v1_Metadata(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ProjectSecretRef":              schema_apis_devsy_cluster_v1_ProjectSecretRef(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfig":               schema_apis_devsy_cluster_v1_SleepModeConfig(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfigSpec":           schema_apis_devsy_cluster_v1_SleepModeConfigSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfigStatus":         schema_apis_devsy_cluster_v1_SleepModeConfigStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuota":                  schema_apis_devsy_storage_v1_ClusterQuota(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaList":              schema_apis_devsy_storage_v1_ClusterQuotaList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaSpec":              schema_apis_devsy_storage_v1_ClusterQuotaSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaStatus":            schema_apis_devsy_storage_v1_ClusterQuotaStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaStatusByNamespace": schema_apis_devsy_storage_v1_ClusterQuotaStatusByNamespace(ref),
+		"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.Condition":                     schema_apis_devsy_storage_v1_Condition(ref),
 		"k8s.io/api/admissionregistration/v1.AuditAnnotation":                                   schema_k8sio_api_admissionregistration_v1_AuditAnnotation(ref),
 		"k8s.io/api/admissionregistration/v1.ExpressionWarning":                                 schema_k8sio_api_admissionregistration_v1_ExpressionWarning(ref),
 		"k8s.io/api/admissionregistration/v1.MatchCondition":                                    schema_k8sio_api_admissionregistration_v1_MatchCondition(ref),
@@ -853,7 +853,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref common.ReferenceCall
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "Analytics is a struct that represents the analytics server and the requests that should be sent to it. This information is sent to Loft instances when they check in with the license server.",
+				Description: "Analytics is a struct that represents the analytics server and the requests that should be sent to it. This information is sent to Devsy instances when they check in with the license server.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"endpoint": {
@@ -889,7 +889,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref common.ReferenceC
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "Announcement contains an announcement that should be shown within the Loft instance. This information is sent to Loft instances when they check in with the license server.",
+				Description: "Announcement contains an announcement that should be shown within the Devsy instance. This information is sent to Devsy instances when they check in with the license server.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"name": {
@@ -987,7 +987,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref common.ReferenceCallbac
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "Button is an object that represents a button in the Loft UI that links to some external service for handling operations for licensing for example.",
+				Description: "Button is an object that represents a button in the Devsy UI that links to some external service for handling operations for licensing for example.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"name": {
@@ -1007,14 +1007,14 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref common.ReferenceCallbac
 					},
 					"displayText": {
 						SchemaProps: spec.SchemaProps{
-							Description: "DisplayText is the text to display on the button. If display text is unset the button will never be shown in the loft UI.",
+							Description: "DisplayText is the text to display on the button. If display text is unset the button will never be shown in the devsy UI.",
 							Type:        []string{"string"},
 							Format:      "",
 						},
 					},
 					"direct": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Direct indicates if the Loft front end should directly hit this endpoint. If false, it means that the Loft front end will be hitting the license server first to generate a one time token for the operation; this also means that there will be a redirect URL in the response to the request for this and that link should be followed by the front end.",
+							Description: "Direct indicates if the Devsy front end should directly hit this endpoint. If false, it means that the Devsy front end will be hitting the license server first to generate a one time token for the operation; this also means that there will be a redirect URL in the response to the request for this and that link should be followed by the front end.",
 							Type:        []string{"boolean"},
 							Format:      "",
 						},
@@ -1035,7 +1035,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref common.ReferenceCallba
 				Properties: map[string]spec.Schema{
 					"name": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Loft version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
+							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Devsy version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1167,7 +1167,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref common.Refer
 				Properties: map[string]spec.Schema{
 					"token": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Token is the jwt token identifying the loft instance.",
+							Description: "Token is the jwt token identifying the devsy instance.",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1255,12 +1255,12 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "License is a struct representing the license data sent to a Loft instance after checking in with the license server.",
+				Description: "License is a struct representing the license data sent to a Devsy instance after checking in with the license server.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"instance": {
 						SchemaProps: spec.SchemaProps{
-							Description: "InstanceID contains the instance id of the Loft instance",
+							Description: "InstanceID contains the instance id of the Devsy instance",
 							Type:        []string{"string"},
 							Format:      "",
 						},
@@ -1280,7 +1280,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 					},
 					"domainToken": {
 						SchemaProps: spec.SchemaProps{
-							Description: "DomainToken holds the JWT with the URL that the Loft instance is publicly available on. (via Loft router)",
+							Description: "DomainToken holds the JWT with the URL that the Devsy instance is publicly available on. (via Devsy router)",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1288,7 +1288,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 					},
 					"buttons": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Buttons is a slice of license server endpoints (buttons) that the Loft instance may need to hit. Each Button contains the display text and link for the front end to work with.",
+							Description: "Buttons is a slice of license server endpoints (buttons) that the Devsy instance may need to hit. Each Button contains the display text and link for the front end to work with.",
 							Type:        []string{"array"},
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
@@ -2037,7 +2037,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref common.ReferenceCallback
 	}
 }
 
-func schema_apis_loft_cluster_v1_Bash(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Bash(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2084,7 +2084,7 @@ func schema_apis_loft_cluster_v1_Bash(ref common.ReferenceCallback) common.OpenA
 	}
 }
 
-func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Chart(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2122,7 +2122,7 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 					"usernameRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "The username that is required for this repository",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartSecretRef"),
 						},
 					},
 					"password": {
@@ -2135,7 +2135,7 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 					"passwordRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "The password that is required for this repository",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartSecretRef"),
 						},
 					},
 					"insecureSkipTlsVerify": {
@@ -2149,11 +2149,11 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartSecretRef"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2182,24 +2182,24 @@ func schema_apis_loft_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoSpec", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfoStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfoList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2232,7 +2232,7 @@ func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) com
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfo"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfo"),
 									},
 								},
 							},
@@ -2243,11 +2243,11 @@ func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) com
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfo", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ChartInfo", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2257,18 +2257,18 @@ func schema_apis_loft_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) com
 						SchemaProps: spec.SchemaProps{
 							Description: "Chart holds information about a chart that should get deployed",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2277,7 +2277,7 @@ func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) c
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Metadata provides information about a chart",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Metadata"),
 						},
 					},
 					"readme": {
@@ -2298,11 +2298,11 @@ func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Metadata"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2311,18 +2311,18 @@ func schema_apis_loft_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) co
 					"projectSecretRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ProjectSecretRef holds the reference to a project secret",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ProjectSecretRef"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ProjectSecretRef"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ProjectSecretRef"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.ProjectSecretRef"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_EpochInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_EpochInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2349,7 +2349,7 @@ func schema_apis_loft_cluster_v1_EpochInfo(ref common.ReferenceCallback) common.
 	}
 }
 
-func schema_apis_loft_cluster_v1_Feature(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Feature(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2379,24 +2379,24 @@ func schema_apis_loft_cluster_v1_Feature(ref common.ReferenceCallback) common.Op
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureSpec", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.FeatureStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_FeatureList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2429,7 +2429,7 @@ func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) commo
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Feature"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Feature"),
 									},
 								},
 							},
@@ -2440,11 +2440,11 @@ func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) commo
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Feature", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Feature", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_FeatureSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_FeatureSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2455,7 +2455,7 @@ func schema_apis_loft_cluster_v1_FeatureSpec(ref common.ReferenceCallback) commo
 	}
 }
 
-func schema_apis_loft_cluster_v1_FeatureStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_FeatureStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2464,7 +2464,7 @@ func schema_apis_loft_cluster_v1_FeatureStatus(ref common.ReferenceCallback) com
 				Properties: map[string]spec.Schema{
 					"name": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Loft version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
+							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Devsy version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -2532,7 +2532,7 @@ func schema_apis_loft_cluster_v1_FeatureStatus(ref common.ReferenceCallback) com
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmRelease(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmRelease(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2561,24 +2561,24 @@ func schema_apis_loft_cluster_v1_HelmRelease(ref common.ReferenceCallback) commo
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseSpec", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmReleaseStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseApp(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseApp(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2604,7 +2604,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseApp(ref common.ReferenceCallback) co
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2614,7 +2614,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 						SchemaProps: spec.SchemaProps{
 							Description: "Chart holds information about a chart that should get deployed",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart"),
 						},
 					},
 					"manifests": {
@@ -2627,7 +2627,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 					"bash": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Bash holds the bash script to execute in a container in the target",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Bash"),
 						},
 					},
 					"values": {
@@ -2664,11 +2664,11 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Bash", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2701,7 +2701,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmRelease"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmRelease"),
 									},
 								},
 							},
@@ -2712,11 +2712,11 @@ func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmRelease", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.HelmRelease", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2726,7 +2726,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 						SchemaProps: spec.SchemaProps{
 							Description: "Chart holds information about a chart that should get deployed",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart"),
 						},
 					},
 					"manifests": {
@@ -2739,7 +2739,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 					"bash": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Bash holds the bash script to execute in a container in the target",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Bash"),
 						},
 					},
 					"values": {
@@ -2776,11 +2776,11 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Bash", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Chart"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2796,24 +2796,24 @@ func schema_apis_loft_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback)
 					"info": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Info provides information about a release",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Info"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Info"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Metadata provides information about a chart",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Metadata"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Info", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Info", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Metadata"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_Info(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Info(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2867,7 +2867,7 @@ func schema_apis_loft_cluster_v1_Info(ref common.ReferenceCallback) common.OpenA
 	}
 }
 
-func schema_apis_loft_cluster_v1_LastActivityInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_LastActivityInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2943,7 +2943,7 @@ func schema_apis_loft_cluster_v1_LastActivityInfo(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_cluster_v1_Maintainer(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Maintainer(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2977,7 +2977,7 @@ func schema_apis_loft_cluster_v1_Maintainer(ref common.ReferenceCallback) common
 	}
 }
 
-func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Metadata(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3049,7 +3049,7 @@ func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.O
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Maintainer"),
+										Ref: ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Maintainer"),
 									},
 								},
 							},
@@ -3146,11 +3146,11 @@ func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.O
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Maintainer"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.Maintainer"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_ProjectSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ProjectSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3183,7 +3183,7 @@ func schema_apis_loft_cluster_v1_ProjectSecretRef(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3213,24 +3213,24 @@ func schema_apis_loft_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) c
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfigSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfigStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfigSpec", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.SleepModeConfigStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
-func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3245,7 +3245,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallbac
 					},
 					"forceSleepDuration": {
 						SchemaProps: spec.SchemaProps{
-							Description: "If force sleep duration is set, this will force the space to sleep for the given duration. It also implies that forceSleep is true. During this period loft will also block certain requests to that space. If this is set to 0, it means the space will sleep until it is manually woken up via the cli or ui.",
+							Description: "If force sleep duration is set, this will force the space to sleep for the given duration. It also implies that forceSleep is true. During this period devsy will also block certain requests to that space. If this is set to 0, it means the space will sleep until it is manually woken up via the cli or ui.",
 							Type:        []string{"integer"},
 							Format:      "int64",
 						},
@@ -3306,9 +3306,9 @@ func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallbac
 							Format:      "",
 						},
 					},
-					"ignoreVClusters": {
+					"ignoreDevsys": {
 						SchemaProps: spec.SchemaProps{
-							Description: "IgnoreVClusters ignores vcluster requests",
+							Description: "IgnoreDevsys ignores devsy requests",
 							Type:        []string{"boolean"},
 							Format:      "",
 						},
@@ -3361,7 +3361,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallbac
 	}
 }
 
-func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3377,12 +3377,12 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 					"lastActivityInfo": {
 						SchemaProps: spec.SchemaProps{
 							Description: "LastActivityInfo holds information about the last activity within this space",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.LastActivityInfo"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.LastActivityInfo"),
 						},
 					},
 					"sleepingSince": {
 						SchemaProps: spec.SchemaProps{
-							Description: "SleepingSince specifies since when the space is sleeping (if this is not specified, loft assumes the space is not sleeping)",
+							Description: "SleepingSince specifies since when the space is sleeping (if this is not specified, devsy assumes the space is not sleeping)",
 							Type:        []string{"integer"},
 							Format:      "int64",
 						},
@@ -3390,13 +3390,13 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 					"currentEpoch": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Optional info that indicates how long the space was sleeping in the current epoch",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.EpochInfo"),
 						},
 					},
 					"lastEpoch": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Optional info that indicates how long the space was sleeping in the current epoch",
-							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.EpochInfo"),
 						},
 					},
 					"sleptLastThirtyDays": {
@@ -3438,11 +3438,11 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.LastActivityInfo"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.EpochInfo", "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1.LastActivityInfo"},
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuota(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuota(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3472,24 +3472,24 @@ func schema_apis_loft_storage_v1_ClusterQuota(ref common.ReferenceCallback) comm
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaSpec", "github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaSpec", "github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3523,7 +3523,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) 
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuota"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuota"),
 									},
 								},
 							},
@@ -3534,11 +3534,11 @@ func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuota", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuota", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3581,7 +3581,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaSpec(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3603,7 +3603,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaStatusByNamespace"),
 									},
 								},
 							},
@@ -3613,11 +3613,11 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace", "k8s.io/api/core/v1.ResourceQuotaStatus"},
+			"github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1.ClusterQuotaStatusByNamespace", "k8s.io/api/core/v1.ResourceQuotaStatus"},
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaStatusByNamespace(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3648,7 +3648,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref common.Refere
 	}
 }
 
-func schema_apis_loft_storage_v1_Condition(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_Condition(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
