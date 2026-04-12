@@ -2,7 +2,7 @@ name: Lint
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
   workflow_dispatch:
 
@@ -18,7 +18,7 @@ jobs:
       - name: setup Go
         uses: actions/setup-go@v6
         with:
-          go-version-file: go.mod
+          go-version: stable
 
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v9
@@ -28,7 +28,7 @@ jobs:
 
       - name: megalinter
         uses: oxsecurity/megalinter@v9
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_ALL_CODEBASE: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
+          VALIDATE_ALL_CODEBASE: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') }}

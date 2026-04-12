@@ -2,7 +2,7 @@ name: Pre-commit
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
 
       - uses: actions/setup-go@v6
         with:
-          go-version-file: go.mod
+          go-version: stable
 
       - uses: golangci/golangci-lint-action@v9
         with:
