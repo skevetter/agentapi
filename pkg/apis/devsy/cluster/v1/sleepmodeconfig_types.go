@@ -27,12 +27,12 @@ const (
 	SleepModeDisableMetricsTracking      = "sleepmode.devsy.sh/disable-metrics-tracking"
 
 	// Not yet in spec annotations
-	SleepModeIgnoreAll                     = "sleepmode.devsy.sh/ignore-all"
-	SleepModeIgnoreIngresses               = "sleepmode.devsy.sh/ignore-ingresses"
-	SleepModeIgnoreGroupsAnnotation        = "sleepmode.devsy.sh/ignore-groups"
-	SleepModeIgnoreDevsysAnnotation        = "sleepmode.devsy.sh/ignore-devsys"
-	SleepModeIgnoreResourcesAnnotation     = "sleepmode.devsy.sh/ignore-resources"
-	SleepModeIgnoreVerbsAnnotation         = "sleepmode.devsy.sh/ignore-verbs"
+	SleepModeIgnoreAll                 = "sleepmode.devsy.sh/ignore-all"
+	SleepModeIgnoreIngresses           = "sleepmode.devsy.sh/ignore-ingresses"
+	SleepModeIgnoreGroupsAnnotation    = "sleepmode.devsy.sh/ignore-groups"
+	SleepModeIgnoreDevsysAnnotation    = "sleepmode.devsy.sh/ignore-devsys"
+	SleepModeIgnoreResourcesAnnotation = "sleepmode.devsy.sh/ignore-resources"
+	SleepModeIgnoreVerbsAnnotation     = "sleepmode.devsy.sh/ignore-verbs"
 	// format: myresource.mygroup=create update delete, myresource2.mygroup=create update
 	SleepModeIgnoreResourceVerbsAnnotation = "sleepmode.devsy.sh/ignore-resource-verbs"
 	// format: myresource.mygroup=name1 name2
