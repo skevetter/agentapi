@@ -33,10 +33,13 @@ const (
 	SleepModeIgnoreDevsysAnnotation        = "sleepmode.devsy.sh/ignore-devsys"
 	SleepModeIgnoreResourcesAnnotation     = "sleepmode.devsy.sh/ignore-resources"
 	SleepModeIgnoreVerbsAnnotation         = "sleepmode.devsy.sh/ignore-verbs"
-	SleepModeIgnoreResourceVerbsAnnotation = "sleepmode.devsy.sh/ignore-resource-verbs" // format: myresource.mygroup=create update delete, myresource2.mygroup=create update
-	SleepModeIgnoreResourceNamesAnnotation = "sleepmode.devsy.sh/ignore-resource-names" // format: myresource.mygroup=name1 name2
+	// format: myresource.mygroup=create update delete, myresource2.mygroup=create update
+	SleepModeIgnoreResourceVerbsAnnotation = "sleepmode.devsy.sh/ignore-resource-verbs"
+	// format: myresource.mygroup=name1 name2
+	SleepModeIgnoreResourceNamesAnnotation = "sleepmode.devsy.sh/ignore-resource-names"
 	SleepModeIgnoreActiveConnections       = "sleepmode.devsy.sh/ignore-active-connections"
-	SleepModeIgnoreUserAgents              = "sleepmode.devsy.sh/ignore-user-agents" // format: useragent1,useragentprefix/*,*
+	// format: useragent1,useragentprefix/*,*
+	SleepModeIgnoreUserAgents = "sleepmode.devsy.sh/ignore-user-agents"
 
 	SleepTypeInactivity     = "inactivitySleep"
 	SleepTypeForced         = "forcedSleep"
@@ -168,7 +171,8 @@ type SleepModeConfigStatus struct {
 	// +optional
 	LastActivityInfo *LastActivityInfo `json:"lastActivityInfo,omitempty"`
 
-	// SleepingSince specifies since when the space is sleeping (if this is not specified, devsy assumes the space is not sleeping)
+	// SleepingSince specifies since when the space is sleeping
+	// (if this is not specified, devsy assumes the space is not sleeping)
 	// +optional
 	SleepingSince int64 `json:"sleepingSince,omitempty"`
 
