@@ -16,63 +16,63 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Analytics":                                schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Announcement":                             schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.BlockRequest":                             schema_loft_sh_admin_apis_pkg_licenseapi_BlockRequest(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Button":                                   schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Feature":                                  schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.GenericRequestInput":                      schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.GenericRequestOutput":                     schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.InstanceTokenAuth":                        schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.InstanceTokenClaims":                      schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Invoice":                                  schema_loft_sh_admin_apis_pkg_licenseapi_Invoice(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.License":                                  schema_loft_sh_admin_apis_pkg_licenseapi_License(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute":                          schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoutes":                         schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Limit":                                    schema_loft_sh_admin_apis_pkg_licenseapi_Limit(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Module":                                   schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.OfflineLicenseKeyClaims":                  schema_loft_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Plan":                                     schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.PlanExpiration":                           schema_loft_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.PlanPeriod":                               schema_loft_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.PlanPrice":                                schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.PriceTier":                                schema_loft_sh_admin_apis_pkg_licenseapi_PriceTier(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Request":                                  schema_loft_sh_admin_apis_pkg_licenseapi_Request(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.ResourceCount":                            schema_loft_sh_admin_apis_pkg_licenseapi_ResourceCount(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.TierResource":                             schema_loft_sh_admin_apis_pkg_licenseapi_TierResource(ref),
-		"github.com/loft-sh/admin-apis/pkg/licenseapi.Trial":                                    schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Bash":                          schema_apis_loft_cluster_v1_Bash(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart":                         schema_apis_loft_cluster_v1_Chart(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfo":                     schema_apis_loft_cluster_v1_ChartInfo(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoList":                 schema_apis_loft_cluster_v1_ChartInfoList(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoSpec":                 schema_apis_loft_cluster_v1_ChartInfoSpec(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoStatus":               schema_apis_loft_cluster_v1_ChartInfoStatus(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartSecretRef":                schema_apis_loft_cluster_v1_ChartSecretRef(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.EpochInfo":                     schema_apis_loft_cluster_v1_EpochInfo(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Feature":                       schema_apis_loft_cluster_v1_Feature(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureList":                   schema_apis_loft_cluster_v1_FeatureList(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureSpec":                   schema_apis_loft_cluster_v1_FeatureSpec(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureStatus":                 schema_apis_loft_cluster_v1_FeatureStatus(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmRelease":                   schema_apis_loft_cluster_v1_HelmRelease(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseApp":                schema_apis_loft_cluster_v1_HelmReleaseApp(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseConfig":             schema_apis_loft_cluster_v1_HelmReleaseConfig(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseList":               schema_apis_loft_cluster_v1_HelmReleaseList(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseSpec":               schema_apis_loft_cluster_v1_HelmReleaseSpec(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseStatus":             schema_apis_loft_cluster_v1_HelmReleaseStatus(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Info":                          schema_apis_loft_cluster_v1_Info(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.LastActivityInfo":              schema_apis_loft_cluster_v1_LastActivityInfo(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Maintainer":                    schema_apis_loft_cluster_v1_Maintainer(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Metadata":                      schema_apis_loft_cluster_v1_Metadata(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ProjectSecretRef":              schema_apis_loft_cluster_v1_ProjectSecretRef(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfig":               schema_apis_loft_cluster_v1_SleepModeConfig(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfigSpec":           schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfigStatus":         schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuota":                  schema_apis_loft_storage_v1_ClusterQuota(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaList":              schema_apis_loft_storage_v1_ClusterQuotaList(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaSpec":              schema_apis_loft_storage_v1_ClusterQuotaSpec(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaStatus":            schema_apis_loft_storage_v1_ClusterQuotaStatus(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace": schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref),
-		"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.Condition":                     schema_apis_loft_storage_v1_Condition(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Analytics":                                schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Announcement":                             schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.BlockRequest":                             schema_loft_sh_admin_apis_pkg_licenseapi_BlockRequest(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Button":                                   schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Feature":                                  schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.GenericRequestInput":                      schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.GenericRequestOutput":                     schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.InstanceTokenAuth":                        schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.InstanceTokenClaims":                      schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Invoice":                                  schema_loft_sh_admin_apis_pkg_licenseapi_Invoice(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.License":                                  schema_loft_sh_admin_apis_pkg_licenseapi_License(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute":                          schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoutes":                         schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Limit":                                    schema_loft_sh_admin_apis_pkg_licenseapi_Limit(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Module":                                   schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.OfflineLicenseKeyClaims":                  schema_loft_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Plan":                                     schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.PlanExpiration":                           schema_loft_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.PlanPeriod":                               schema_loft_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.PlanPrice":                                schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.PriceTier":                                schema_loft_sh_admin_apis_pkg_licenseapi_PriceTier(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Request":                                  schema_loft_sh_admin_apis_pkg_licenseapi_Request(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.ResourceCount":                            schema_loft_sh_admin_apis_pkg_licenseapi_ResourceCount(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.TierResource":                             schema_loft_sh_admin_apis_pkg_licenseapi_TierResource(ref),
+		"github.com/skevetter/admin-apis/pkg/licenseapi.Trial":                                    schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash":                          schema_apis_loft_cluster_v1_Bash(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart":                         schema_apis_loft_cluster_v1_Chart(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfo":                     schema_apis_loft_cluster_v1_ChartInfo(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoList":                 schema_apis_loft_cluster_v1_ChartInfoList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoSpec":                 schema_apis_loft_cluster_v1_ChartInfoSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoStatus":               schema_apis_loft_cluster_v1_ChartInfoStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef":                schema_apis_loft_cluster_v1_ChartSecretRef(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo":                     schema_apis_loft_cluster_v1_EpochInfo(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Feature":                       schema_apis_loft_cluster_v1_Feature(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureList":                   schema_apis_loft_cluster_v1_FeatureList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureSpec":                   schema_apis_loft_cluster_v1_FeatureSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureStatus":                 schema_apis_loft_cluster_v1_FeatureStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmRelease":                   schema_apis_loft_cluster_v1_HelmRelease(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseApp":                schema_apis_loft_cluster_v1_HelmReleaseApp(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseConfig":             schema_apis_loft_cluster_v1_HelmReleaseConfig(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseList":               schema_apis_loft_cluster_v1_HelmReleaseList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseSpec":               schema_apis_loft_cluster_v1_HelmReleaseSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseStatus":             schema_apis_loft_cluster_v1_HelmReleaseStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Info":                          schema_apis_loft_cluster_v1_Info(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.LastActivityInfo":              schema_apis_loft_cluster_v1_LastActivityInfo(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Maintainer":                    schema_apis_loft_cluster_v1_Maintainer(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata":                      schema_apis_loft_cluster_v1_Metadata(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ProjectSecretRef":              schema_apis_loft_cluster_v1_ProjectSecretRef(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfig":               schema_apis_loft_cluster_v1_SleepModeConfig(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigSpec":           schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigStatus":         schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuota":                  schema_apis_loft_storage_v1_ClusterQuota(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaList":              schema_apis_loft_storage_v1_ClusterQuotaList(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaSpec":              schema_apis_loft_storage_v1_ClusterQuotaSpec(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatus":            schema_apis_loft_storage_v1_ClusterQuotaStatus(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace": schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref),
+		"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.Condition":                     schema_apis_loft_storage_v1_Condition(ref),
 		"k8s.io/api/admissionregistration/v1.AuditAnnotation":                                   schema_k8sio_api_admissionregistration_v1_AuditAnnotation(ref),
 		"k8s.io/api/admissionregistration/v1.ExpressionWarning":                                 schema_k8sio_api_admissionregistration_v1_ExpressionWarning(ref),
 		"k8s.io/api/admissionregistration/v1.MatchCondition":                                    schema_k8sio_api_admissionregistration_v1_MatchCondition(ref),
@@ -871,7 +871,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref common.ReferenceCall
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Request"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.Request"),
 									},
 								},
 							},
@@ -881,7 +881,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref common.ReferenceCall
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.Request"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.Request"},
 	}
 }
 
@@ -920,7 +920,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref common.ReferenceC
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Button"),
+										Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.Button"),
 									},
 								},
 							},
@@ -930,7 +930,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref common.ReferenceC
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.Button"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.Button"},
 	}
 }
 
@@ -972,14 +972,14 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_BlockRequest(ref common.ReferenceC
 					},
 					"overage": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.ResourceCount"),
+							Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.ResourceCount"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.ResourceCount"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.ResourceCount"},
 	}
 }
 
@@ -1145,7 +1145,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref common.Re
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Button"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.Button"),
 									},
 								},
 							},
@@ -1155,7 +1155,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref common.Re
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.Button"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.Button"},
 	}
 }
 
@@ -1275,7 +1275,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 					"analytics": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Analytics indicates the analytics endpoints and which requests should be sent to the analytics server.",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Analytics"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.Analytics"),
 						},
 					},
 					"domainToken": {
@@ -1293,7 +1293,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Button"),
+										Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.Button"),
 									},
 								},
 							},
@@ -1306,7 +1306,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Announcement"),
+										Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.Announcement"),
 									},
 								},
 							},
@@ -1319,7 +1319,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Module"),
+										Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.Module"),
 									},
 								},
 							},
@@ -1333,7 +1333,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.BlockRequest"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.BlockRequest"),
 									},
 								},
 							},
@@ -1349,7 +1349,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 					"routes": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoutes"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoutes"),
 						},
 					},
 					"plans": {
@@ -1360,7 +1360,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Plan"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.Plan"),
 									},
 								},
 							},
@@ -1370,7 +1370,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.Analytics", "github.com/loft-sh/admin-apis/pkg/licenseapi.Announcement", "github.com/loft-sh/admin-apis/pkg/licenseapi.BlockRequest", "github.com/loft-sh/admin-apis/pkg/licenseapi.Button", "github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoutes", "github.com/loft-sh/admin-apis/pkg/licenseapi.Module", "github.com/loft-sh/admin-apis/pkg/licenseapi.Plan"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.Analytics", "github.com/skevetter/admin-apis/pkg/licenseapi.Announcement", "github.com/skevetter/admin-apis/pkg/licenseapi.BlockRequest", "github.com/skevetter/admin-apis/pkg/licenseapi.Button", "github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoutes", "github.com/skevetter/admin-apis/pkg/licenseapi.Module", "github.com/skevetter/admin-apis/pkg/licenseapi.Plan"},
 	}
 }
 
@@ -1416,56 +1416,56 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref common.Refere
 					"chatAuth": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"featureDetails": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"featureSetup": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"featurePreview": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"moduleActivation": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"modulePreview": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"checkout": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 					"portal": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
+							Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.LicenseAPIRoute"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.LicenseAPIRoute"},
 	}
 }
 
@@ -1493,14 +1493,14 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Limit(ref common.ReferenceCallback
 					"quantity": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Limit specifies the limit for this resource.",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.ResourceCount"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.ResourceCount"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.ResourceCount"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.ResourceCount"},
 	}
 }
 
@@ -1537,7 +1537,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref common.ReferenceCallbac
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Limit"),
+										Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.Limit"),
 									},
 								},
 							},
@@ -1549,7 +1549,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref common.ReferenceCallbac
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Feature"),
+										Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.Feature"),
 									},
 								},
 							},
@@ -1560,7 +1560,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref common.ReferenceCallbac
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.Feature", "github.com/loft-sh/admin-apis/pkg/licenseapi.Limit"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.Feature", "github.com/skevetter/admin-apis/pkg/licenseapi.Limit"},
 	}
 }
 
@@ -1572,14 +1572,14 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref common
 				Properties: map[string]spec.Schema{
 					"license": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/loft-sh/admin-apis/pkg/licenseapi.License"),
+							Ref: ref("github.com/skevetter/admin-apis/pkg/licenseapi.License"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.License"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.License"},
 	}
 }
 
@@ -1614,19 +1614,19 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback)
 					"period": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Period provides information about the plan's current period This is nil unless this is the active plan",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.PlanPeriod"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.PlanPeriod"),
 						},
 					},
 					"trial": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Trial provides details about a planned, ongoing or expired trial",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Trial"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.Trial"),
 						},
 					},
 					"invoice": {
 						SchemaProps: spec.SchemaProps{
 							Description: "UpcomingInvoice provides a preview of the next invoice that will be created for this Plan",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Invoice"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.Invoice"),
 						},
 					},
 					"features": {
@@ -1652,7 +1652,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback)
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Limit"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.Limit"),
 									},
 								},
 							},
@@ -1666,7 +1666,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback)
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.PlanPrice"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.PlanPrice"),
 									},
 								},
 							},
@@ -1680,7 +1680,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback)
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.Plan"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.Plan"),
 									},
 								},
 							},
@@ -1690,7 +1690,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.Invoice", "github.com/loft-sh/admin-apis/pkg/licenseapi.Limit", "github.com/loft-sh/admin-apis/pkg/licenseapi.Plan", "github.com/loft-sh/admin-apis/pkg/licenseapi.PlanPeriod", "github.com/loft-sh/admin-apis/pkg/licenseapi.PlanPrice", "github.com/loft-sh/admin-apis/pkg/licenseapi.Trial"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.Invoice", "github.com/skevetter/admin-apis/pkg/licenseapi.Limit", "github.com/skevetter/admin-apis/pkg/licenseapi.Plan", "github.com/skevetter/admin-apis/pkg/licenseapi.PlanPeriod", "github.com/skevetter/admin-apis/pkg/licenseapi.PlanPrice", "github.com/skevetter/admin-apis/pkg/licenseapi.Trial"},
 	}
 }
 
@@ -1786,7 +1786,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCall
 					"exp": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Expiration provides information about when this plan expires",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.PlanExpiration"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.PlanExpiration"),
 						},
 					},
 					"quantity": {
@@ -1799,7 +1799,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCall
 					"resource": {
 						SchemaProps: spec.SchemaProps{
 							Description: "TierResource provides details about the main resource the tier quantity relates to This may be nil for plans that don't have their quantity tied to a resource",
-							Ref:         ref("github.com/loft-sh/admin-apis/pkg/licenseapi.TierResource"),
+							Ref:         ref("github.com/skevetter/admin-apis/pkg/licenseapi.TierResource"),
 						},
 					},
 					"tierMode": {
@@ -1817,7 +1817,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCall
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/admin-apis/pkg/licenseapi.PriceTier"),
+										Ref:     ref("github.com/skevetter/admin-apis/pkg/licenseapi.PriceTier"),
 									},
 								},
 							},
@@ -1827,7 +1827,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCall
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/admin-apis/pkg/licenseapi.PlanExpiration", "github.com/loft-sh/admin-apis/pkg/licenseapi.PriceTier", "github.com/loft-sh/admin-apis/pkg/licenseapi.TierResource"},
+			"github.com/skevetter/admin-apis/pkg/licenseapi.PlanExpiration", "github.com/skevetter/admin-apis/pkg/licenseapi.PriceTier", "github.com/skevetter/admin-apis/pkg/licenseapi.TierResource"},
 	}
 }
 
@@ -2122,7 +2122,7 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 					"usernameRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "The username that is required for this repository",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartSecretRef"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef"),
 						},
 					},
 					"password": {
@@ -2135,7 +2135,7 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 					"passwordRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "The password that is required for this repository",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartSecretRef"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef"),
 						},
 					},
 					"insecureSkipTlsVerify": {
@@ -2149,7 +2149,7 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartSecretRef"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartSecretRef"},
 	}
 }
 
@@ -2182,20 +2182,20 @@ func schema_apis_loft_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoSpec", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfoStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfoStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2232,7 +2232,7 @@ func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) com
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfo"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfo"),
 									},
 								},
 							},
@@ -2243,7 +2243,7 @@ func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) com
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ChartInfo", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ChartInfo", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2257,14 +2257,14 @@ func schema_apis_loft_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) com
 						SchemaProps: spec.SchemaProps{
 							Description: "Chart holds information about a chart that should get deployed",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"},
 	}
 }
 
@@ -2277,7 +2277,7 @@ func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) c
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Metadata provides information about a chart",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Metadata"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"),
 						},
 					},
 					"readme": {
@@ -2298,7 +2298,7 @@ func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Metadata"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"},
 	}
 }
 
@@ -2311,14 +2311,14 @@ func schema_apis_loft_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) co
 					"projectSecretRef": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ProjectSecretRef holds the reference to a project secret",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ProjectSecretRef"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ProjectSecretRef"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.ProjectSecretRef"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.ProjectSecretRef"},
 	}
 }
 
@@ -2379,20 +2379,20 @@ func schema_apis_loft_cluster_v1_Feature(ref common.ReferenceCallback) common.Op
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureSpec", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.FeatureStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.FeatureStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2429,7 +2429,7 @@ func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) commo
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Feature"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Feature"),
 									},
 								},
 							},
@@ -2440,7 +2440,7 @@ func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) commo
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Feature", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Feature", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2561,20 +2561,20 @@ func schema_apis_loft_cluster_v1_HelmRelease(ref common.ReferenceCallback) commo
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseSpec", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmReleaseStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmReleaseStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2614,7 +2614,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 						SchemaProps: spec.SchemaProps{
 							Description: "Chart holds information about a chart that should get deployed",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"),
 						},
 					},
 					"manifests": {
@@ -2627,7 +2627,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 					"bash": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Bash holds the bash script to execute in a container in the target",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Bash"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash"),
 						},
 					},
 					"values": {
@@ -2664,7 +2664,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Bash", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"},
 	}
 }
 
@@ -2701,7 +2701,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmRelease"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmRelease"),
 									},
 								},
 							},
@@ -2712,7 +2712,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.HelmRelease", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.HelmRelease", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2726,7 +2726,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 						SchemaProps: spec.SchemaProps{
 							Description: "Chart holds information about a chart that should get deployed",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"),
 						},
 					},
 					"manifests": {
@@ -2739,7 +2739,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 					"bash": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Bash holds the bash script to execute in a container in the target",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Bash"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash"),
 						},
 					},
 					"values": {
@@ -2776,7 +2776,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Bash", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Chart"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Bash", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Chart"},
 	}
 }
 
@@ -2796,20 +2796,20 @@ func schema_apis_loft_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback)
 					"info": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Info provides information about a release",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Info"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Info"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Metadata provides information about a chart",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Metadata"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Info", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Metadata"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Info", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Metadata"},
 	}
 }
 
@@ -3049,7 +3049,7 @@ func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.O
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Maintainer"),
+										Ref: ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Maintainer"),
 									},
 								},
 							},
@@ -3146,7 +3146,7 @@ func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.O
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.Maintainer"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.Maintainer"},
 	}
 }
 
@@ -3213,20 +3213,20 @@ func schema_apis_loft_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) c
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfigSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfigStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfigSpec", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.SleepModeConfigStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigSpec", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.SleepModeConfigStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -3377,7 +3377,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 					"lastActivityInfo": {
 						SchemaProps: spec.SchemaProps{
 							Description: "LastActivityInfo holds information about the last activity within this space",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.LastActivityInfo"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.LastActivityInfo"),
 						},
 					},
 					"sleepingSince": {
@@ -3390,13 +3390,13 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 					"currentEpoch": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Optional info that indicates how long the space was sleeping in the current epoch",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.EpochInfo"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo"),
 						},
 					},
 					"lastEpoch": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Optional info that indicates how long the space was sleeping in the current epoch",
-							Ref:         ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.EpochInfo"),
+							Ref:         ref("github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo"),
 						},
 					},
 					"sleptLastThirtyDays": {
@@ -3438,7 +3438,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.EpochInfo", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/cluster/v1.LastActivityInfo"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.EpochInfo", "github.com/skevetter/agentapi/pkg/apis/loft/cluster/v1.LastActivityInfo"},
 	}
 }
 
@@ -3472,20 +3472,20 @@ func schema_apis_loft_storage_v1_ClusterQuota(ref common.ReferenceCallback) comm
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaSpec"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaStatus"),
+							Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaSpec", "github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaSpec", "github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -3523,7 +3523,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) 
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuota"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuota"),
 									},
 								},
 							},
@@ -3534,7 +3534,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuota", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuota", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -3603,7 +3603,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace"),
+										Ref:     ref("github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace"),
 									},
 								},
 							},
@@ -3613,7 +3613,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/loft-sh/agentapi/v4/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace", "k8s.io/api/core/v1.ResourceQuotaStatus"},
+			"github.com/skevetter/agentapi/pkg/apis/loft/storage/v1.ClusterQuotaStatusByNamespace", "k8s.io/api/core/v1.ResourceQuotaStatus"},
 	}
 }
 
