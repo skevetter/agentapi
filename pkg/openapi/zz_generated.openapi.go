@@ -55,77 +55,77 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		licenseapi.Analytics{}.OpenAPIModelName():                                         schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref),
-		licenseapi.Announcement{}.OpenAPIModelName():                                      schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref),
-		licenseapi.BlockRequest{}.OpenAPIModelName():                                      schema_loft_sh_admin_apis_pkg_licenseapi_BlockRequest(ref),
-		licenseapi.Button{}.OpenAPIModelName():                                            schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref),
-		licenseapi.ChatAuthCreateInput{}.OpenAPIModelName():                               schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateInput(ref),
-		licenseapi.ChatAuthCreateOutput{}.OpenAPIModelName():                              schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateOutput(ref),
-		licenseapi.DomainToken{}.OpenAPIModelName():                                       schema_loft_sh_admin_apis_pkg_licenseapi_DomainToken(ref),
-		licenseapi.Feature{}.OpenAPIModelName():                                           schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref),
-		licenseapi.FeatureUsage{}.OpenAPIModelName():                                      schema_loft_sh_admin_apis_pkg_licenseapi_FeatureUsage(ref),
-		licenseapi.GenericRequestInput{}.OpenAPIModelName():                               schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref),
-		licenseapi.GenericRequestOutput{}.OpenAPIModelName():                              schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref),
-		licenseapi.InstanceActivateInstanceInput{}.OpenAPIModelName():                     schema_loft_sh_admin_apis_pkg_licenseapi_InstanceActivateInstanceInput(ref),
-		licenseapi.InstanceCreateInput{}.OpenAPIModelName():                               schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateInput(ref),
-		licenseapi.InstanceCreateOutput{}.OpenAPIModelName():                              schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateOutput(ref),
-		licenseapi.InstanceSendActivationEmailInput{}.OpenAPIModelName():                  schema_loft_sh_admin_apis_pkg_licenseapi_InstanceSendActivationEmailInput(ref),
-		licenseapi.InstanceTokenAuth{}.OpenAPIModelName():                                 schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref),
-		licenseapi.InstanceTokenClaims{}.OpenAPIModelName():                               schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref),
-		licenseapi.InstanceUsageInput{}.OpenAPIModelName():                                schema_loft_sh_admin_apis_pkg_licenseapi_InstanceUsageInput(ref),
-		licenseapi.Invoice{}.OpenAPIModelName():                                           schema_loft_sh_admin_apis_pkg_licenseapi_Invoice(ref),
-		licenseapi.License{}.OpenAPIModelName():                                           schema_loft_sh_admin_apis_pkg_licenseapi_License(ref),
-		licenseapi.LicenseAPIRoute{}.OpenAPIModelName():                                   schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref),
-		licenseapi.LicenseAPIRoutes{}.OpenAPIModelName():                                  schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref),
-		licenseapi.Limit{}.OpenAPIModelName():                                             schema_loft_sh_admin_apis_pkg_licenseapi_Limit(ref),
-		licenseapi.Module{}.OpenAPIModelName():                                            schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref),
-		licenseapi.NodeInfo{}.OpenAPIModelName():                                          schema_loft_sh_admin_apis_pkg_licenseapi_NodeInfo(ref),
-		licenseapi.OfflineLicenseKeyClaims{}.OpenAPIModelName():                           schema_loft_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref),
-		licenseapi.Plan{}.OpenAPIModelName():                                              schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref),
-		licenseapi.PlanExpiration{}.OpenAPIModelName():                                    schema_loft_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref),
-		licenseapi.PlanPeriod{}.OpenAPIModelName():                                        schema_loft_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref),
-		licenseapi.PlanPrice{}.OpenAPIModelName():                                         schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref),
-		licenseapi.PlatformDatabase{}.OpenAPIModelName():                                  schema_loft_sh_admin_apis_pkg_licenseapi_PlatformDatabase(ref),
-		licenseapi.PriceTier{}.OpenAPIModelName():                                         schema_loft_sh_admin_apis_pkg_licenseapi_PriceTier(ref),
-		licenseapi.Request{}.OpenAPIModelName():                                           schema_loft_sh_admin_apis_pkg_licenseapi_Request(ref),
-		licenseapi.ResourceCount{}.OpenAPIModelName():                                     schema_loft_sh_admin_apis_pkg_licenseapi_ResourceCount(ref),
-		licenseapi.TierResource{}.OpenAPIModelName():                                      schema_loft_sh_admin_apis_pkg_licenseapi_TierResource(ref),
-		licenseapi.Trial{}.OpenAPIModelName():                                             schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref),
-		licenseapi.UsageData{}.OpenAPIModelName():                                         schema_loft_sh_admin_apis_pkg_licenseapi_UsageData(ref),
-		licenseapi.UsageDataDetails{}.OpenAPIModelName():                                  schema_loft_sh_admin_apis_pkg_licenseapi_UsageDataDetails(ref),
-		licenseapi.DevsyClusterInfo{}.OpenAPIModelName():                                schema_loft_sh_admin_apis_pkg_licenseapi_DevsyClusterInfo(ref),
-		v1.Bash{}.OpenAPIModelName():                                                      schema_apis_loft_cluster_v1_Bash(ref),
-		v1.Chart{}.OpenAPIModelName():                                                     schema_apis_loft_cluster_v1_Chart(ref),
-		v1.ChartInfo{}.OpenAPIModelName():                                                 schema_apis_loft_cluster_v1_ChartInfo(ref),
-		v1.ChartInfoList{}.OpenAPIModelName():                                             schema_apis_loft_cluster_v1_ChartInfoList(ref),
-		v1.ChartInfoSpec{}.OpenAPIModelName():                                             schema_apis_loft_cluster_v1_ChartInfoSpec(ref),
-		v1.ChartInfoStatus{}.OpenAPIModelName():                                           schema_apis_loft_cluster_v1_ChartInfoStatus(ref),
-		v1.ChartSecretRef{}.OpenAPIModelName():                                            schema_apis_loft_cluster_v1_ChartSecretRef(ref),
-		v1.EpochInfo{}.OpenAPIModelName():                                                 schema_apis_loft_cluster_v1_EpochInfo(ref),
-		v1.Feature{}.OpenAPIModelName():                                                   schema_apis_loft_cluster_v1_Feature(ref),
-		v1.FeatureList{}.OpenAPIModelName():                                               schema_apis_loft_cluster_v1_FeatureList(ref),
-		v1.FeatureSpec{}.OpenAPIModelName():                                               schema_apis_loft_cluster_v1_FeatureSpec(ref),
-		v1.FeatureStatus{}.OpenAPIModelName():                                             schema_apis_loft_cluster_v1_FeatureStatus(ref),
-		v1.HelmRelease{}.OpenAPIModelName():                                               schema_apis_loft_cluster_v1_HelmRelease(ref),
-		v1.HelmReleaseApp{}.OpenAPIModelName():                                            schema_apis_loft_cluster_v1_HelmReleaseApp(ref),
-		v1.HelmReleaseConfig{}.OpenAPIModelName():                                         schema_apis_loft_cluster_v1_HelmReleaseConfig(ref),
-		v1.HelmReleaseList{}.OpenAPIModelName():                                           schema_apis_loft_cluster_v1_HelmReleaseList(ref),
-		v1.HelmReleaseSpec{}.OpenAPIModelName():                                           schema_apis_loft_cluster_v1_HelmReleaseSpec(ref),
-		v1.HelmReleaseStatus{}.OpenAPIModelName():                                         schema_apis_loft_cluster_v1_HelmReleaseStatus(ref),
-		v1.Info{}.OpenAPIModelName():                                                      schema_apis_loft_cluster_v1_Info(ref),
-		v1.LastActivityInfo{}.OpenAPIModelName():                                          schema_apis_loft_cluster_v1_LastActivityInfo(ref),
-		v1.Maintainer{}.OpenAPIModelName():                                                schema_apis_loft_cluster_v1_Maintainer(ref),
-		v1.Metadata{}.OpenAPIModelName():                                                  schema_apis_loft_cluster_v1_Metadata(ref),
-		v1.ProjectSecretRef{}.OpenAPIModelName():                                          schema_apis_loft_cluster_v1_ProjectSecretRef(ref),
-		v1.SleepModeConfig{}.OpenAPIModelName():                                           schema_apis_loft_cluster_v1_SleepModeConfig(ref),
-		v1.SleepModeConfigSpec{}.OpenAPIModelName():                                       schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref),
-		v1.SleepModeConfigStatus{}.OpenAPIModelName():                                     schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref),
-		storagev1.ClusterQuota{}.OpenAPIModelName():                                       schema_apis_loft_storage_v1_ClusterQuota(ref),
-		storagev1.ClusterQuotaList{}.OpenAPIModelName():                                   schema_apis_loft_storage_v1_ClusterQuotaList(ref),
-		storagev1.ClusterQuotaSpec{}.OpenAPIModelName():                                   schema_apis_loft_storage_v1_ClusterQuotaSpec(ref),
-		storagev1.ClusterQuotaStatus{}.OpenAPIModelName():                                 schema_apis_loft_storage_v1_ClusterQuotaStatus(ref),
-		storagev1.ClusterQuotaStatusByNamespace{}.OpenAPIModelName():                      schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref),
-		storagev1.Condition{}.OpenAPIModelName():                                          schema_apis_loft_storage_v1_Condition(ref),
+		licenseapi.Analytics{}.OpenAPIModelName():                                         schema_devsy_sh_admin_apis_pkg_licenseapi_Analytics(ref),
+		licenseapi.Announcement{}.OpenAPIModelName():                                      schema_devsy_sh_admin_apis_pkg_licenseapi_Announcement(ref),
+		licenseapi.BlockRequest{}.OpenAPIModelName():                                      schema_devsy_sh_admin_apis_pkg_licenseapi_BlockRequest(ref),
+		licenseapi.Button{}.OpenAPIModelName():                                            schema_devsy_sh_admin_apis_pkg_licenseapi_Button(ref),
+		licenseapi.ChatAuthCreateInput{}.OpenAPIModelName():                               schema_devsy_sh_admin_apis_pkg_licenseapi_ChatAuthCreateInput(ref),
+		licenseapi.ChatAuthCreateOutput{}.OpenAPIModelName():                              schema_devsy_sh_admin_apis_pkg_licenseapi_ChatAuthCreateOutput(ref),
+		licenseapi.DomainToken{}.OpenAPIModelName():                                       schema_devsy_sh_admin_apis_pkg_licenseapi_DomainToken(ref),
+		licenseapi.Feature{}.OpenAPIModelName():                                           schema_devsy_sh_admin_apis_pkg_licenseapi_Feature(ref),
+		licenseapi.FeatureUsage{}.OpenAPIModelName():                                      schema_devsy_sh_admin_apis_pkg_licenseapi_FeatureUsage(ref),
+		licenseapi.GenericRequestInput{}.OpenAPIModelName():                               schema_devsy_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref),
+		licenseapi.GenericRequestOutput{}.OpenAPIModelName():                              schema_devsy_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref),
+		licenseapi.InstanceActivateInstanceInput{}.OpenAPIModelName():                     schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceActivateInstanceInput(ref),
+		licenseapi.InstanceCreateInput{}.OpenAPIModelName():                               schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceCreateInput(ref),
+		licenseapi.InstanceCreateOutput{}.OpenAPIModelName():                              schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceCreateOutput(ref),
+		licenseapi.InstanceSendActivationEmailInput{}.OpenAPIModelName():                  schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceSendActivationEmailInput(ref),
+		licenseapi.InstanceTokenAuth{}.OpenAPIModelName():                                 schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref),
+		licenseapi.InstanceTokenClaims{}.OpenAPIModelName():                               schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref),
+		licenseapi.InstanceUsageInput{}.OpenAPIModelName():                                schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceUsageInput(ref),
+		licenseapi.Invoice{}.OpenAPIModelName():                                           schema_devsy_sh_admin_apis_pkg_licenseapi_Invoice(ref),
+		licenseapi.License{}.OpenAPIModelName():                                           schema_devsy_sh_admin_apis_pkg_licenseapi_License(ref),
+		licenseapi.LicenseAPIRoute{}.OpenAPIModelName():                                   schema_devsy_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref),
+		licenseapi.LicenseAPIRoutes{}.OpenAPIModelName():                                  schema_devsy_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref),
+		licenseapi.Limit{}.OpenAPIModelName():                                             schema_devsy_sh_admin_apis_pkg_licenseapi_Limit(ref),
+		licenseapi.Module{}.OpenAPIModelName():                                            schema_devsy_sh_admin_apis_pkg_licenseapi_Module(ref),
+		licenseapi.NodeInfo{}.OpenAPIModelName():                                          schema_devsy_sh_admin_apis_pkg_licenseapi_NodeInfo(ref),
+		licenseapi.OfflineLicenseKeyClaims{}.OpenAPIModelName():                           schema_devsy_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref),
+		licenseapi.Plan{}.OpenAPIModelName():                                              schema_devsy_sh_admin_apis_pkg_licenseapi_Plan(ref),
+		licenseapi.PlanExpiration{}.OpenAPIModelName():                                    schema_devsy_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref),
+		licenseapi.PlanPeriod{}.OpenAPIModelName():                                        schema_devsy_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref),
+		licenseapi.PlanPrice{}.OpenAPIModelName():                                         schema_devsy_sh_admin_apis_pkg_licenseapi_PlanPrice(ref),
+		licenseapi.PlatformDatabase{}.OpenAPIModelName():                                  schema_devsy_sh_admin_apis_pkg_licenseapi_PlatformDatabase(ref),
+		licenseapi.PriceTier{}.OpenAPIModelName():                                         schema_devsy_sh_admin_apis_pkg_licenseapi_PriceTier(ref),
+		licenseapi.Request{}.OpenAPIModelName():                                           schema_devsy_sh_admin_apis_pkg_licenseapi_Request(ref),
+		licenseapi.ResourceCount{}.OpenAPIModelName():                                     schema_devsy_sh_admin_apis_pkg_licenseapi_ResourceCount(ref),
+		licenseapi.TierResource{}.OpenAPIModelName():                                      schema_devsy_sh_admin_apis_pkg_licenseapi_TierResource(ref),
+		licenseapi.Trial{}.OpenAPIModelName():                                             schema_devsy_sh_admin_apis_pkg_licenseapi_Trial(ref),
+		licenseapi.UsageData{}.OpenAPIModelName():                                         schema_devsy_sh_admin_apis_pkg_licenseapi_UsageData(ref),
+		licenseapi.UsageDataDetails{}.OpenAPIModelName():                                  schema_devsy_sh_admin_apis_pkg_licenseapi_UsageDataDetails(ref),
+		licenseapi.DevsyClusterInfo{}.OpenAPIModelName():                                schema_devsy_sh_admin_apis_pkg_licenseapi_DevsyClusterInfo(ref),
+		v1.Bash{}.OpenAPIModelName():                                                      schema_apis_devsy_cluster_v1_Bash(ref),
+		v1.Chart{}.OpenAPIModelName():                                                     schema_apis_devsy_cluster_v1_Chart(ref),
+		v1.ChartInfo{}.OpenAPIModelName():                                                 schema_apis_devsy_cluster_v1_ChartInfo(ref),
+		v1.ChartInfoList{}.OpenAPIModelName():                                             schema_apis_devsy_cluster_v1_ChartInfoList(ref),
+		v1.ChartInfoSpec{}.OpenAPIModelName():                                             schema_apis_devsy_cluster_v1_ChartInfoSpec(ref),
+		v1.ChartInfoStatus{}.OpenAPIModelName():                                           schema_apis_devsy_cluster_v1_ChartInfoStatus(ref),
+		v1.ChartSecretRef{}.OpenAPIModelName():                                            schema_apis_devsy_cluster_v1_ChartSecretRef(ref),
+		v1.EpochInfo{}.OpenAPIModelName():                                                 schema_apis_devsy_cluster_v1_EpochInfo(ref),
+		v1.Feature{}.OpenAPIModelName():                                                   schema_apis_devsy_cluster_v1_Feature(ref),
+		v1.FeatureList{}.OpenAPIModelName():                                               schema_apis_devsy_cluster_v1_FeatureList(ref),
+		v1.FeatureSpec{}.OpenAPIModelName():                                               schema_apis_devsy_cluster_v1_FeatureSpec(ref),
+		v1.FeatureStatus{}.OpenAPIModelName():                                             schema_apis_devsy_cluster_v1_FeatureStatus(ref),
+		v1.HelmRelease{}.OpenAPIModelName():                                               schema_apis_devsy_cluster_v1_HelmRelease(ref),
+		v1.HelmReleaseApp{}.OpenAPIModelName():                                            schema_apis_devsy_cluster_v1_HelmReleaseApp(ref),
+		v1.HelmReleaseConfig{}.OpenAPIModelName():                                         schema_apis_devsy_cluster_v1_HelmReleaseConfig(ref),
+		v1.HelmReleaseList{}.OpenAPIModelName():                                           schema_apis_devsy_cluster_v1_HelmReleaseList(ref),
+		v1.HelmReleaseSpec{}.OpenAPIModelName():                                           schema_apis_devsy_cluster_v1_HelmReleaseSpec(ref),
+		v1.HelmReleaseStatus{}.OpenAPIModelName():                                         schema_apis_devsy_cluster_v1_HelmReleaseStatus(ref),
+		v1.Info{}.OpenAPIModelName():                                                      schema_apis_devsy_cluster_v1_Info(ref),
+		v1.LastActivityInfo{}.OpenAPIModelName():                                          schema_apis_devsy_cluster_v1_LastActivityInfo(ref),
+		v1.Maintainer{}.OpenAPIModelName():                                                schema_apis_devsy_cluster_v1_Maintainer(ref),
+		v1.Metadata{}.OpenAPIModelName():                                                  schema_apis_devsy_cluster_v1_Metadata(ref),
+		v1.ProjectSecretRef{}.OpenAPIModelName():                                          schema_apis_devsy_cluster_v1_ProjectSecretRef(ref),
+		v1.SleepModeConfig{}.OpenAPIModelName():                                           schema_apis_devsy_cluster_v1_SleepModeConfig(ref),
+		v1.SleepModeConfigSpec{}.OpenAPIModelName():                                       schema_apis_devsy_cluster_v1_SleepModeConfigSpec(ref),
+		v1.SleepModeConfigStatus{}.OpenAPIModelName():                                     schema_apis_devsy_cluster_v1_SleepModeConfigStatus(ref),
+		storagev1.ClusterQuota{}.OpenAPIModelName():                                       schema_apis_devsy_storage_v1_ClusterQuota(ref),
+		storagev1.ClusterQuotaList{}.OpenAPIModelName():                                   schema_apis_devsy_storage_v1_ClusterQuotaList(ref),
+		storagev1.ClusterQuotaSpec{}.OpenAPIModelName():                                   schema_apis_devsy_storage_v1_ClusterQuotaSpec(ref),
+		storagev1.ClusterQuotaStatus{}.OpenAPIModelName():                                 schema_apis_devsy_storage_v1_ClusterQuotaStatus(ref),
+		storagev1.ClusterQuotaStatusByNamespace{}.OpenAPIModelName():                      schema_apis_devsy_storage_v1_ClusterQuotaStatusByNamespace(ref),
+		storagev1.Condition{}.OpenAPIModelName():                                          schema_apis_devsy_storage_v1_Condition(ref),
 		admissionregistrationv1.AuditAnnotation{}.OpenAPIModelName():                      schema_k8sio_api_admissionregistration_v1_AuditAnnotation(ref),
 		admissionregistrationv1.ExpressionWarning{}.OpenAPIModelName():                    schema_k8sio_api_admissionregistration_v1_ExpressionWarning(ref),
 		admissionregistrationv1.MatchCondition{}.OpenAPIModelName():                       schema_k8sio_api_admissionregistration_v1_MatchCondition(ref),
@@ -946,11 +946,11 @@ func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenA
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Analytics(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "Analytics is a struct that represents the analytics server and the requests that should be sent to it. This information is sent to Loft instances when they check in with the license server.",
+				Description: "Analytics is a struct that represents the analytics server and the requests that should be sent to it. This information is sent to Devsy instances when they check in with the license server.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"endpoint": {
@@ -982,11 +982,11 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Analytics(ref common.ReferenceCall
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Announcement(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "Announcement contains an announcement that should be shown within the Loft instance. This information is sent to Loft instances when they check in with the license server.",
+				Description: "Announcement contains an announcement that should be shown within the Devsy instance. This information is sent to Devsy instances when they check in with the license server.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"name": {
@@ -1031,7 +1031,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Announcement(ref common.ReferenceC
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_BlockRequest(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_BlockRequest(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1080,11 +1080,11 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_BlockRequest(ref common.ReferenceC
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Button(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "Button is an object that represents a button in the Loft UI that links to some external service for handling operations for licensing for example.",
+				Description: "Button is an object that represents a button in the Devsy UI that links to some external service for handling operations for licensing for example.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"name": {
@@ -1104,14 +1104,14 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref common.ReferenceCallbac
 					},
 					"displayText": {
 						SchemaProps: spec.SchemaProps{
-							Description: "DisplayText is the text to display on the button. If display text is unset the button will never be shown in the loft UI.",
+							Description: "DisplayText is the text to display on the button. If display text is unset the button will never be shown in the devsy UI.",
 							Type:        []string{"string"},
 							Format:      "",
 						},
 					},
 					"direct": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Direct indicates if the Loft front end should directly hit this endpoint. If false, it means that the Loft front end will be hitting the license server first to generate a one time token for the operation; this also means that there will be a redirect URL in the response to the request for this and that link should be followed by the front end.",
+							Description: "Direct indicates if the Devsy front end should directly hit this endpoint. If false, it means that the Devsy front end will be hitting the license server first to generate a one time token for the operation; this also means that there will be a redirect URL in the response to the request for this and that link should be followed by the front end.",
 							Type:        []string{"boolean"},
 							Format:      "",
 						},
@@ -1123,7 +1123,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Button(ref common.ReferenceCallbac
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_ChatAuthCreateInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1132,7 +1132,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateInput(ref common.Ref
 				Properties: map[string]spec.Schema{
 					"token": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Token is the jwt token identifying the loft instance.",
+							Description: "Token is the jwt token identifying the devsy instance.",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1177,7 +1177,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateInput(ref common.Ref
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateOutput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_ChatAuthCreateOutput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1196,7 +1196,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_ChatAuthCreateOutput(ref common.Re
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_DomainToken(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_DomainToken(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1216,7 +1216,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_DomainToken(ref common.ReferenceCa
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Feature(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1225,7 +1225,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref common.ReferenceCallba
 				Properties: map[string]spec.Schema{
 					"name": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Loft version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
+							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Devsy version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1272,7 +1272,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Feature(ref common.ReferenceCallba
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_FeatureUsage(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_FeatureUsage(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1300,7 +1300,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_FeatureUsage(ref common.ReferenceC
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1309,7 +1309,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref common.Ref
 				Properties: map[string]spec.Schema{
 					"token": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Token is the jwt token identifying the loft instance.",
+							Description: "Token is the jwt token identifying the devsy instance.",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1344,7 +1344,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestInput(ref common.Ref
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1387,7 +1387,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_GenericRequestOutput(ref common.Re
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceActivateInstanceInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceActivateInstanceInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1407,16 +1407,16 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceActivateInstanceInput(ref 
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceCreateInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "InstanceCreateInput is the required input data for \"instance create\" operations, that is, the primary endpoint that Loft instances will hit to register to the license server as well as get information about the instance's current license.",
+				Description: "InstanceCreateInput is the required input data for \"instance create\" operations, that is, the primary endpoint that Devsy instances will hit to register to the license server as well as get information about the instance's current license.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"token": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Token is the jwt token identifying the loft instance.",
+							Description: "Token is the jwt token identifying the devsy instance.",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1525,7 +1525,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateInput(ref common.Ref
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateOutput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceCreateOutput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1534,7 +1534,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateOutput(ref common.Re
 				Properties: map[string]spec.Schema{
 					"license": {
 						SchemaProps: spec.SchemaProps{
-							Description: "License is the license data for the requested Loft instance.",
+							Description: "License is the license data for the requested Devsy instance.",
 							Ref:         ref(licenseapi.License{}.OpenAPIModelName()),
 						},
 					},
@@ -1554,7 +1554,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceCreateOutput(ref common.Re
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceSendActivationEmailInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceSendActivationEmailInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1574,7 +1574,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceSendActivationEmailInput(r
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1582,7 +1582,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref common.Refer
 				Properties: map[string]spec.Schema{
 					"token": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Token is the jwt token identifying the loft instance.",
+							Description: "Token is the jwt token identifying the devsy instance.",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1603,7 +1603,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenAuth(ref common.Refer
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1632,7 +1632,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceTokenClaims(ref common.Ref
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceUsageInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_InstanceUsageInput(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1668,7 +1668,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_InstanceUsageInput(ref common.Refe
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Invoice(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Invoice(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1702,16 +1702,16 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Invoice(ref common.ReferenceCallba
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "License is a struct representing the license data sent to a Loft instance after checking in with the license server.",
+				Description: "License is a struct representing the license data sent to a Devsy instance after checking in with the license server.",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"instance": {
 						SchemaProps: spec.SchemaProps{
-							Description: "InstanceID contains the instance id of the Loft instance",
+							Description: "InstanceID contains the instance id of the Devsy instance",
 							Type:        []string{"string"},
 							Format:      "",
 						},
@@ -1747,7 +1747,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 					},
 					"domainToken": {
 						SchemaProps: spec.SchemaProps{
-							Description: "DomainToken holds the JWT with the URL that the Loft instance is publicly available on. (via Loft router)",
+							Description: "DomainToken holds the JWT with the URL that the Devsy instance is publicly available on. (via Devsy router)",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -1755,7 +1755,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 					},
 					"buttons": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Buttons is a slice of license server endpoints (buttons) that the Loft instance may need to hit. Each Button contains the display text and link for the front end to work with.",
+							Description: "Buttons is a slice of license server endpoints (buttons) that the Devsy instance may need to hit. Each Button contains the display text and link for the front end to work with.",
 							Type:        []string{"array"},
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
@@ -1848,7 +1848,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_License(ref common.ReferenceCallba
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1880,7 +1880,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoute(ref common.Referen
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1943,7 +1943,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_LicenseAPIRoutes(ref common.Refere
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Limit(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Limit(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -1985,7 +1985,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Limit(ref common.ReferenceCallback
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Module(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2045,7 +2045,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Module(ref common.ReferenceCallbac
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_NodeInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_NodeInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2088,7 +2088,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_NodeInfo(ref common.ReferenceCallb
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2107,7 +2107,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_OfflineLicenseKeyClaims(ref common
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2218,7 +2218,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Plan(ref common.ReferenceCallback)
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2245,7 +2245,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanExpiration(ref common.Referenc
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2272,7 +2272,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPeriod(ref common.ReferenceCal
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2355,7 +2355,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlanPrice(ref common.ReferenceCall
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_PlatformDatabase(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_PlatformDatabase(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2390,7 +2390,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PlatformDatabase(ref common.Refere
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_PriceTier(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_PriceTier(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2438,7 +2438,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_PriceTier(ref common.ReferenceCall
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Request(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Request(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2480,7 +2480,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Request(ref common.ReferenceCallba
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_ResourceCount(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_ResourceCount(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2521,7 +2521,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_ResourceCount(ref common.Reference
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_TierResource(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_TierResource(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2548,7 +2548,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_TierResource(ref common.ReferenceC
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_Trial(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2603,11 +2603,11 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_Trial(ref common.ReferenceCallback
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_UsageData(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_UsageData(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "UsageData holds information for an instance deployment of vCluster Platform",
+				Description: "UsageData holds information for an instance deployment of Devsy Platform",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"featureUsage": {
@@ -2656,11 +2656,11 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_UsageData(ref common.ReferenceCall
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_UsageDataDetails(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_UsageDataDetails(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
-				Description: "UsageDataDetails holds detailed information about the nodes and virtual cluster for an instance deployment of vCluster Platform",
+				Description: "UsageDataDetails holds detailed information about the nodes and virtual cluster for an instance deployment of Devsy Platform",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
 					"nodes": {
@@ -2692,7 +2692,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_UsageDataDetails(ref common.Refere
 						},
 					},
 				},
-				Required: []string{"nodes", "vClusters"},
+				Required: []string{"nodes", "devsyClusters"},
 			},
 		},
 		Dependencies: []string{
@@ -2700,7 +2700,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_UsageDataDetails(ref common.Refere
 	}
 }
 
-func schema_loft_sh_admin_apis_pkg_licenseapi_DevsyClusterInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_devsy_sh_admin_apis_pkg_licenseapi_DevsyClusterInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2763,7 +2763,7 @@ func schema_loft_sh_admin_apis_pkg_licenseapi_DevsyClusterInfo(ref common.Refere
 	}
 }
 
-func schema_apis_loft_cluster_v1_Bash(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Bash(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2810,7 +2810,7 @@ func schema_apis_loft_cluster_v1_Bash(ref common.ReferenceCallback) common.OpenA
 	}
 }
 
-func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Chart(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2879,7 +2879,7 @@ func schema_apis_loft_cluster_v1_Chart(ref common.ReferenceCallback) common.Open
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2925,7 +2925,7 @@ func schema_apis_loft_cluster_v1_ChartInfo(ref common.ReferenceCallback) common.
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfoList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2973,7 +2973,7 @@ func schema_apis_loft_cluster_v1_ChartInfoList(ref common.ReferenceCallback) com
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -2994,7 +2994,7 @@ func schema_apis_loft_cluster_v1_ChartInfoSpec(ref common.ReferenceCallback) com
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3028,7 +3028,7 @@ func schema_apis_loft_cluster_v1_ChartInfoStatus(ref common.ReferenceCallback) c
 	}
 }
 
-func schema_apis_loft_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3048,7 +3048,7 @@ func schema_apis_loft_cluster_v1_ChartSecretRef(ref common.ReferenceCallback) co
 	}
 }
 
-func schema_apis_loft_cluster_v1_EpochInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_EpochInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3075,7 +3075,7 @@ func schema_apis_loft_cluster_v1_EpochInfo(ref common.ReferenceCallback) common.
 	}
 }
 
-func schema_apis_loft_cluster_v1_Feature(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Feature(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3122,7 +3122,7 @@ func schema_apis_loft_cluster_v1_Feature(ref common.ReferenceCallback) common.Op
 	}
 }
 
-func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_FeatureList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3170,7 +3170,7 @@ func schema_apis_loft_cluster_v1_FeatureList(ref common.ReferenceCallback) commo
 	}
 }
 
-func schema_apis_loft_cluster_v1_FeatureSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_FeatureSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3181,7 +3181,7 @@ func schema_apis_loft_cluster_v1_FeatureSpec(ref common.ReferenceCallback) commo
 	}
 }
 
-func schema_apis_loft_cluster_v1_FeatureStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_FeatureStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3190,7 +3190,7 @@ func schema_apis_loft_cluster_v1_FeatureStatus(ref common.ReferenceCallback) com
 				Properties: map[string]spec.Schema{
 					"name": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Loft version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
+							Description: "Name is the name of the feature (FeatureName) This cannot be FeatureName because it needs to be downward compatible e.g. older Devsy version doesn't know a newer feature but it will still be received and still needs to be rendered in the license view",
 							Default:     "",
 							Type:        []string{"string"},
 							Format:      "",
@@ -3251,7 +3251,7 @@ func schema_apis_loft_cluster_v1_FeatureStatus(ref common.ReferenceCallback) com
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmRelease(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmRelease(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3297,7 +3297,7 @@ func schema_apis_loft_cluster_v1_HelmRelease(ref common.ReferenceCallback) commo
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseApp(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseApp(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3323,7 +3323,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseApp(ref common.ReferenceCallback) co
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3387,7 +3387,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseConfig(ref common.ReferenceCallback)
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3435,7 +3435,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseList(ref common.ReferenceCallback) c
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3499,7 +3499,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseSpec(ref common.ReferenceCallback) c
 	}
 }
 
-func schema_apis_loft_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3532,7 +3532,7 @@ func schema_apis_loft_cluster_v1_HelmReleaseStatus(ref common.ReferenceCallback)
 	}
 }
 
-func schema_apis_loft_cluster_v1_Info(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Info(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3586,7 +3586,7 @@ func schema_apis_loft_cluster_v1_Info(ref common.ReferenceCallback) common.OpenA
 	}
 }
 
-func schema_apis_loft_cluster_v1_LastActivityInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_LastActivityInfo(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3662,7 +3662,7 @@ func schema_apis_loft_cluster_v1_LastActivityInfo(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_cluster_v1_Maintainer(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Maintainer(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3696,7 +3696,7 @@ func schema_apis_loft_cluster_v1_Maintainer(ref common.ReferenceCallback) common
 	}
 }
 
-func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_Metadata(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3869,7 +3869,7 @@ func schema_apis_loft_cluster_v1_Metadata(ref common.ReferenceCallback) common.O
 	}
 }
 
-func schema_apis_loft_cluster_v1_ProjectSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_ProjectSecretRef(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3902,7 +3902,7 @@ func schema_apis_loft_cluster_v1_ProjectSecretRef(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3949,7 +3949,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfig(ref common.ReferenceCallback) c
 	}
 }
 
-func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -3964,7 +3964,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallbac
 					},
 					"forceSleepDuration": {
 						SchemaProps: spec.SchemaProps{
-							Description: "If force sleep duration is set, this will force the space to sleep for the given duration. It also implies that forceSleep is true. During this period loft will also block certain requests to that space. If this is set to 0, it means the space will sleep until it is manually woken up via the cli or ui.",
+							Description: "If force sleep duration is set, this will force the space to sleep for the given duration. It also implies that forceSleep is true. During this period devsy will also block certain requests to that space. If this is set to 0, it means the space will sleep until it is manually woken up via the cli or ui.",
 							Type:        []string{"integer"},
 							Format:      "int64",
 						},
@@ -4080,7 +4080,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigSpec(ref common.ReferenceCallbac
 	}
 }
 
-func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -4101,7 +4101,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 					},
 					"sleepingSince": {
 						SchemaProps: spec.SchemaProps{
-							Description: "SleepingSince specifies since when the space is sleeping (if this is not specified, loft assumes the space is not sleeping)",
+							Description: "SleepingSince specifies since when the space is sleeping (if this is not specified, devsy assumes the space is not sleeping)",
 							Type:        []string{"integer"},
 							Format:      "int64",
 						},
@@ -4161,7 +4161,7 @@ func schema_apis_loft_cluster_v1_SleepModeConfigStatus(ref common.ReferenceCallb
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuota(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuota(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -4208,7 +4208,7 @@ func schema_apis_loft_storage_v1_ClusterQuota(ref common.ReferenceCallback) comm
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -4257,7 +4257,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaList(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaSpec(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -4300,7 +4300,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaSpec(ref common.ReferenceCallback) 
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -4336,7 +4336,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatus(ref common.ReferenceCallback
 	}
 }
 
-func schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_ClusterQuotaStatusByNamespace(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
@@ -4367,7 +4367,7 @@ func schema_apis_loft_storage_v1_ClusterQuotaStatusByNamespace(ref common.Refere
 	}
 }
 
-func schema_apis_loft_storage_v1_Condition(ref common.ReferenceCallback) common.OpenAPIDefinition {
+func schema_apis_devsy_storage_v1_Condition(ref common.ReferenceCallback) common.OpenAPIDefinition {
 	return common.OpenAPIDefinition{
 		Schema: spec.Schema{
 			SchemaProps: spec.SchemaProps{
