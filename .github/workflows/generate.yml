@@ -1,0 +1,43 @@
+name: Generate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  openapi:
+    name: OpenAPI Up-to-date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+
+      - name: Install openapi-gen
+        run: go install k8s.io/kube-openapi/cmd/openapi-gen@latest
+
+      - name: Generate OpenAPI
+        run: |
+          openapi-gen \
+            --output-dir pkg/openapi \
+            --output-pkg github.com/skevetter/agentapi/pkg/openapi \
+            --output-file zz_generated.openapi.go \
+            github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1 \
+            github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1 \
+            github.com/skevetter/admin-apis/pkg/licenseapi \
+            k8s.io/apimachinery/pkg/apis/meta/v1 \
+            k8s.io/api/core/v1
+
+      - name: Check for drift
+        run: |
+          if ! git diff --exit-code pkg/openapi/zz_generated.openapi.go; then
+            echo "::error::Generated OpenAPI file is out of date. Run 'task generate:openapi' and commit the result."
+            exit 1
+          fi
