@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/skevetter/agentapi/compare/v1.0.0...v1.0.1) (2026-04-13)
+
+
+### Bug Fixes
+
+* update generated openapi to use DevsyClusterInfo ([#25](https://github.com/skevetter/agentapi/issues/25)) ([7025b68](https://github.com/skevetter/agentapi/commit/7025b682d209de0eea164ff2873b36daa71bd3bf))
+
 ## 1.0.0 (2026-04-13)
 
 
