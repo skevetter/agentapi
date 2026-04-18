@@ -3,7 +3,7 @@
 // of the same resource
 
 // +k8s:openapi-gen=true
-// +k8s:openapi-model-package=com.github.loft-sh.agentapi.v4.pkg.apis.loft.cluster.v1
+// +k8s:openapi-model-package=com.github.devsy-sh.agentapi.pkg.apis.devsy.cluster.v1
 // +k8s:deepcopy-gen=package,register
 // +k8s:conversion-gen=github.com/skevetter/agentapi/pkg/apis/devsy/cluster
 // +k8s:defaulter-gen=TypeMeta
